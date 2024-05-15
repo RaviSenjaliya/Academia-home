@@ -8,7 +8,7 @@ const TeamOne = () => {
 
   useEffect(() => {
     axios
-      .get("https://dull-overcoat-dog.cyclic.app/api/subject")
+      .get("https://academia-api-cu1m.onrender.com/api/subject")
       .then((response) => {
         setRows(response.data);
         setLoading(false); // Set loading to false after data is fetched

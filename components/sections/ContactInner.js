@@ -27,7 +27,7 @@ const ContactInner = () => {
         if (result.isConfirmed) {
           Swal.fire("Query Send..👍", "", "success");
 
-          fetch("https://dull-overcoat-dog.cyclic.app/api/studentenquiry", {
+          fetch("https://academia-api-cu1m.onrender.com/api/studentenquiry", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
